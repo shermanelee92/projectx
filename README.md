@@ -5,7 +5,7 @@ Sorry it's still quite manual, will find a way to script it
 1. Download <a href="https://www.apache.org/dyn/closer.lua/spark/spark-2.4.4/spark-2.4.4-bin-hadoop2.7.tgz">Spark</a>
 2. Download binary version of <a href="https://www.apache.org/dyn/closer.cgi/hadoop/common/hadoop-3.1.2/hadoop-3.1.2.tar.gz">Hadoop</a>
 3. Create 3 folders 'prog-files-1', 'prog-files-2', 'prog-files'
-4. Extract Spark in to prog-files folder
+4. Extract Spark in to 'prog-files' folder
 
 
 # Hadoop Setup
