@@ -1,0 +1,4 @@
+# ignore hadoop/spark folders
+prog-files/*
+prog-files-1/*
+prog-files-2/*
