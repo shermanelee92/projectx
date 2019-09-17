@@ -6,6 +6,16 @@ Sorry it's still quite manual, will find a way to script it
 2. Download binary version of <a href="https://www.apache.org/dyn/closer.cgi/hadoop/common/hadoop-3.1.2/hadoop-3.1.2.tar.gz">Hadoop</a>
 3. Create 3 folders 'prog-files-1', 'prog-files-2', 'prog-files'
 4. Extract Spark into 'prog-files' folder
+5. Set spark-env.sh
+   ```
+    export SPARK_CONF_DIR=/etc/spark/conf
+    export SPARK_LOG_DIR=/var/log/spark
+    export SPARK_PID_DIR=/var/run/spark
+    export HADOOP_HOME=$HADOOP_HOME
+    export HADOOP_CONF_DIR=$HADOOP_CONF_DIR
+    # The java implementation to use.
+    export JAVA_HOME=/usr/lib/jvm/java-1.11.0-openjdk-amd64
+    ```
 
 
 # Hadoop Setup
